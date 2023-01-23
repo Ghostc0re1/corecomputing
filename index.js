@@ -6,7 +6,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const { request } = require('https');
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 22;
 
 // use bodyParser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
