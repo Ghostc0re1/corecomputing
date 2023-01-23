@@ -14,6 +14,8 @@ const request = require('https');
         }).json();
     }
 
+    curl -H'Authorization: cpanel username:APITOKEN' 'https://example.com:2083/execute/Module/function?parameter=value'
+
 /* //call api
 function call_api(finishedAPI, ticker) {
     request(`https://api.iex.cloud/stable/stock/${ticker}/quote?token=sk_1e52d334a01f40309fe157fc217fe8e2`, { json: true }, (err, res, body) => {

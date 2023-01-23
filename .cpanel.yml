@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/corecomputing/
+    - /bin/cp -R images $DEPLOYPATH
